@@ -1,8 +1,16 @@
 admin tim@gulfcoastcenter.org
 *
-SQL_TABLE ClientDiagnosis
+reglimit 200
+*
+SQL_TABLE DX10
 SQLDSNFILE /c1/FRSH/SCRIPT/D/freetds/dw_write_test.ds
 *
+arch_path
+arch_clean N
+*
+sql_create N
 SQL_EXEC Y
 SQL_TRUNCATE Y
+*
+id_col_def CID
 *
