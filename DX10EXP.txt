@@ -1,0 +1,8 @@
+admin tim@gulfcoastcenter.org
+*
+SQL_TABLE ClientDiagnosis
+SQLDSNFILE /c1/FRSH/SCRIPT/D/freetds/dw_write_test.ds
+*
+SQL_EXEC Y
+SQL_TRUNCATE Y
+*

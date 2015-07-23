@@ -1,0 +1,125 @@
+|30300 |C.DX10.RH        |DX10 Record Header             |0|02|R|0| 0|   0 |30300|||                       
+|30301 |C.DX10.STAFF     |DX10 Diagnosing Staff          |0|02|X|3| 8|   0 |30300|||                       
+|30302 |C.DX10.ENTSTAFF  |DX10 Entry Staff               |0|02|X|3| 8|   0 |30300|||                       
+|30303 |C.DX10.DT        |DX10 Date                      |0|02|D|0|10|   0 |30300|||                       
+|30304 |C.DX10.TIME      |DX10 Time                      |0|02|T|0| 7|   0 |30300|||                       
+|30305 |C.DX10.ENTDT     |DX10 Entry Date                |0|02|D|0|10|   0 |30300|||                       
+|30306 |C.DX10.ENTTM     |DX10 Entry Time                |0|02|T|0| 7|   0 |30300|||                       
+|30307 |C.DX10.CAREDT    |DX10 CARE Date                 |0|02|D|0|10|   0 |30300|||                       
+|30308 |C.DX10.REASON    |DX10 Reason for Diagnosis      |0|02|X|1| 1|  55 |30300|||                       
+|30309 |C.DX10.EXPIRE    |DX10 Expire Date               |0|02|D|0|10|   0 |30300|||                       
+|30310 |C.DX10.PIMARY.AX |DX10 Axis of Primary Diagnosis |0|02|X|1| 1|2087 |30300|||                       
+|30311 |C.DX10.ICD10.1   |DX10 ICD10 Code Lev 1          |0|02|X|0| 8|   0 |30300|||                       
+|30312 |C.DX10.ICD9.1    |DX10 ICD9 Code Lev 1           |0|02|X|0| 6|   0 |30300|||                       
+|30313 |C.DX10.LEGAX.1   |DX10 Legacy Axis Lev 1         |0|02|X|0| 1|   0 |30300|||                       
+|30314 |C.DX10.DXCAT.1   |DX10 Diagnosis Category Lev 1  |0|02|X|0| 8|   0 |30300|||                       
+|30315 |C.DX10.DXRANK.1  |DX10 Diagnosis Rank Lev 1      |0|02|X|0| 2|   0 |30300|||                       
+|30316 |C.DX10.UNIQ.1    |DX10 Diagnosis Unique Lev 1    |0|02|X|0| 6|   0 |30300|||                       
+|30317 |C.DX10.ICD10.2   |DX10 ICD10 Code Lev 2          |0|02|X|0| 8|   0 |30300|||                       
+|30318 |C.DX10.ICD9.2    |DX10 ICD9 Code Lev 2           |0|02|X|0| 6|   0 |30300|||                       
+|30319 |C.DX10.LEGAX.2   |DX10 Legacy Axis Lev 2         |0|02|X|0| 1|   0 |30300|||                       
+|30320 |C.DX10.DXCAT.2   |DX10 Diagnosis Category Lev 2  |0|02|X|0| 8|   0 |30300|||                       
+|30321 |C.DX10.DXRANK.2  |DX10 Diagnosis Rank Lev 2      |0|02|X|0| 2|   0 |30300|||                       
+|30322 |C.DX10.UNIQ.2    |DX10 Diagnosis Unique Lev 2    |0|02|X|0| 6|   0 |30300|||                       
+|30323 |C.DX10.ICD10.3   |DX10 ICD10 Code Lev 3          |0|02|X|0| 8|   0 |30300|||                       
+|30324 |C.DX10.ICD9.3    |DX10 ICD9 Code Lev 3           |0|02|X|0| 6|   0 |30300|||                       
+|30325 |C.DX10.LEGAX.3   |DX10 Legacy Axis Lev 3         |0|02|X|0| 1|   0 |30300|||                       
+|30326 |C.DX10.DXCAT.3   |DX10 Diagnosis Category Lev 3  |0|02|X|0| 8|   0 |30300|||                       
+|30327 |C.DX10.DXRANK.3  |DX10 Diagnosis Rank Lev 3      |0|02|X|0| 2|   0 |30300|||                       
+|30328 |C.DX10.UNIQ.3    |DX10 Diagnosis Unique Lev 3    |0|02|X|0| 6|   0 |30300|||                       
+|30329 |C.DX10.ICD10.4   |DX10 ICD10 Code Lev 4          |0|02|X|0| 8|   0 |30300|||                       
+|30330 |C.DX10.ICD9.4    |DX10 ICD9 Code Lev 4           |0|02|X|0| 6|   0 |30300|||                       
+|30331 |C.DX10.LEGAX.4   |DX10 Legacy Axis Lev 4         |0|02|X|0| 1|   0 |30300|||                       
+|30332 |C.DX10.DXCAT.4   |DX10 Diagnosis Category Lev 4  |0|02|X|0| 8|   0 |30300|||                       
+|30333 |C.DX10.DXRANK.4  |DX10 Diagnosis Rank Lev 4      |0|02|X|0| 2|   0 |30300|||                       
+|30334 |C.DX10.UNIQ.4    |DX10 Diagnosis Unique Lev 4    |0|02|X|0| 6|   0 |30300|||                       
+|30335 |C.DX10.ICD10.5   |DX10 ICD10 Code Lev 5          |0|02|X|0| 8|   0 |30300|||                       
+|30336 |C.DX10.ICD9.5    |DX10 ICD9 Code Lev 5           |0|02|X|0| 6|   0 |30300|||                       
+|30337 |C.DX10.LEGAX.5   |DX10 Legacy Axis Lev 5         |0|02|X|0| 1|   0 |30300|||                       
+|30338 |C.DX10.DXCAT.5   |DX10 Diagnosis Category Lev 5  |0|02|X|0| 8|   0 |30300|||                       
+|30339 |C.DX10.DXRANK.5  |DX10 Diagnosis Rank Lev 5      |0|02|X|0| 2|   0 |30300|||                       
+|30340 |C.DX10.UNIQ.5    |DX10 Diagnosis Unique Lev 5    |0|02|X|0| 6|   0 |30300|||                       
+|30341 |C.DX10.ICD10.6   |DX10 ICD10 Code Lev 6          |0|02|X|0| 8|   0 |30300|||                       
+|30342 |C.DX10.ICD9.6    |DX10 ICD9 Code Lev 6           |0|02|X|0| 6|   0 |30300|||                       
+|30343 |C.DX10.LEGAX.6   |DX10 Legacy Axis Lev 6         |0|02|X|0| 1|   0 |30300|||                       
+|30344 |C.DX10.DXCAT.6   |DX10 Diagnosis Category Lev 6  |0|02|X|0| 8|   0 |30300|||                       
+|30345 |C.DX10.DXRANK.6  |DX10 Diagnosis Rank Lev 6      |0|02|X|0| 2|   0 |30300|||                       
+|30346 |C.DX10.UNIQ.6    |DX10 Diagnosis Unique Lev 6    |0|02|X|0| 6|   0 |30300|||                       
+|30347 |C.DX10.ICD10.7   |DX10 ICD10 Code Lev 7          |0|02|X|0| 8|   0 |30300|||                       
+|30348 |C.DX10.ICD9.7    |DX10 ICD9 Code Lev 7           |0|02|X|0| 6|   0 |30300|||                       
+|30349 |C.DX10.LEGAX.7   |DX10 Legacy Axis Lev 7         |0|02|X|0| 1|   0 |30300|||                       
+|30350 |C.DX10.DXCAT.7   |DX10 Diagnosis Category Lev 7  |0|02|X|0| 8|   0 |30300|||                       
+|30351 |C.DX10.DXRANK.7  |DX10 Diagnosis Rank Lev 7      |0|02|X|0| 2|   0 |30300|||                       
+|30352 |C.DX10.UNIQ.7    |DX10 Diagnosis Unique Lev 7    |0|02|X|0| 6|   0 |30300|||                                                                                Gulf Coast Center                                                          
+|30353 |C.DX10.ICD10.8   |DX10 ICD10 Code Lev 8          |0|02|X|0| 8|   0 |30300|||                       
+|30354 |C.DX10.ICD9.8    |DX10 ICD9 Code Lev 8           |0|02|X|0| 6|   0 |30300|||                       
+|30355 |C.DX10.LEGAX.8   |DX10 Legacy Axis Lev 8         |0|02|X|0| 1|   0 |30300|||                       
+|30356 |C.DX10.DXCAT.8   |DX10 Diagnosis Category Lev 8  |0|02|X|0| 8|   0 |30300|||                       
+|30357 |C.DX10.DXRANK.8  |DX10 Diagnosis Rank Lev 8      |0|02|X|0| 2|   0 |30300|||                       
+|30358 |C.DX10.UNIQ.8    |DX10 Diagnosis Unique Lev 8    |0|02|X|0| 6|   0 |30300|||                       
+|30359 |C.DX10.ICD10.9   |DX10 ICD10 Code Lev 9          |0|02|X|0| 8|   0 |30300|||                       
+|30360 |C.DX10.ICD9.9    |DX10 ICD9 Code Lev 9           |0|02|X|0| 6|   0 |30300|||                       
+|30361 |C.DX10.LEGAX.9   |DX10 Legacy Axis Lev 9         |0|02|X|0| 1|   0 |30300|||                       
+|30362 |C.DX10.DXCAT.9   |DX10 Diagnosis Category Lev 9  |0|02|X|0| 8|   0 |30300|||                       
+|30363 |C.DX10.DXRANK.9  |DX10 Diagnosis Rank Lev 9      |0|02|X|0| 2|   0 |30300|||                       
+|30364 |C.DX10.UNIQ.9    |DX10 Diagnosis Unique Lev 9    |0|02|X|0| 6|   0 |30300|||                       
+|30365 |C.DX10.ICD10.10  |DX10 ICD10 Code Lev 10         |0|02|X|0| 8|   0 |30300|||                       
+|30366 |C.DX10.ICD9.10   |DX10 ICD9 Code Lev 10          |0|02|X|0| 6|   0 |30300|||                       
+|30367 |C.DX10.LEGAX.10  |DX10 Legacy Axis Lev 10        |0|02|X|0| 1|   0 |30300|||                       
+|30368 |C.DX10.DXCAT.10  |DX10 Diagnosis Category Lev 10 |0|02|X|0| 8|   0 |30300|||                       
+|30369 |C.DX10.DXRANK.10 |DX10 Diagnosis Rank Lev 10     |0|02|X|0| 2|   0 |30300|||                       
+|30370 |C.DX10.UNIQ.10   |DX10 Diagnosis Unique Lev 10   |0|02|X|0| 6|   0 |30300|||                       
+|30371 |C.DX10.ICD10.11  |DX10 ICD10 Code Lev 11         |0|02|X|0| 8|   0 |30300|||                       
+|30372 |C.DX10.ICD9.11   |DX10 ICD9 Code Lev 11          |0|02|X|0| 6|   0 |30300|||                       
+|30373 |C.DX10.LEGAX.11  |DX10 Legacy Axis Lev 11        |0|02|X|0| 1|   0 |30300|||                       
+|30374 |C.DX10.DXCAT.11  |DX10 Diagnosis Category Lev 11 |0|02|X|0| 8|   0 |30300|||                       
+|30375 |C.DX10.DXRANK.11 |DX10 Diagnosis Rank Lev 11     |0|02|X|0| 2|   0 |30300|||                       
+|30376 |C.DX10.UNIQ.11   |DX10 Diagnosis Unique Lev 11   |0|02|X|0| 6|   0 |30300|||                       
+|30377 |C.DX10.ICD10.12  |DX10 ICD10 Code Lev 12         |0|02|X|0| 8|   0 |30300|||                       
+|30378 |C.DX10.ICD9.12   |DX10 ICD9 Code Lev 12          |0|02|X|0| 6|   0 |30300|||                       
+|30379 |C.DX10.LEGAX.12  |DX10 Legacy Axis Lev 12        |0|02|X|0| 1|   0 |30300|||                       
+|30380 |C.DX10.DXCAT.12  |DX10 Diagnosis Category Lev 12 |0|02|X|0| 8|   0 |30300|||                       
+|30381 |C.DX10.DXRANK.12 |DX10 Diagnosis Rank Lev 12     |0|02|X|0| 2|   0 |30300|||                       
+|30382 |C.DX10.UNIQ.12   |DX10 Diagnosis Unique Lev 12   |0|02|X|0| 6|   0 |30300|||                       
+|30383 |C.DX10.ICD10.13  |DX10 ICD10 Code Lev 13         |0|02|X|0| 8|   0 |30300|||                       
+|30384 |C.DX10.ICD9.13   |DX10 ICD9 Code Lev 13          |0|02|X|0| 6|   0 |30300|||                       
+|30385 |C.DX10.LEGAX.13  |DX10 Legacy Axis Lev 13        |0|02|X|0| 1|   0 |30300|||                       
+|30386 |C.DX10.DXCAT.13  |DX10 Diagnosis Category Lev 13 |0|02|X|0| 8|   0 |30300|||                       
+|30387 |C.DX10.DXRANK.13 |DX10 Diagnosis Rank Lev 13     |0|02|X|0| 2|   0 |30300|||                       
+|30388 |C.DX10.UNIQ.13   |DX10 Diagnosis Unique Lev 13   |0|02|X|0| 6|   0 |30300|||                       
+|30389 |C.DX10.ICD10.14  |DX10 ICD10 Code Lev 14         |0|02|X|0| 8|   0 |30300|||                       
+|30390 |C.DX10.ICD9.14   |DX10 ICD9 Code Lev 14          |0|02|X|0| 6|   0 |30300|||                       
+|30391 |C.DX10.LEGAX.14  |DX10 Legacy Axis Lev 14        |0|02|X|0| 1|   0 |30300|||                       
+|30392 |C.DX10.DXCAT.14  |DX10 Diagnosis Category Lev 14 |0|02|X|0| 8|   0 |30300|||                       
+|30393 |C.DX10.DXRANK.14 |DX10 Diagnosis Rank Lev 14     |0|02|X|0| 2|   0 |30300|||                       
+|30394 |C.DX10.UNIQ.14   |DX10 Diagnosis Unique Lev 14   |0|02|X|0| 6|   0 |30300|||                       
+|30395 |C.DX10.ICD10.15  |DX10 ICD10 Code Lev 15         |0|02|X|0| 8|   0 |30300|||                       
+|30396 |C.DX10.ICD9.15   |DX10 ICD9 Code Lev 15          |0|02|X|0| 6|   0 |30300|||                       
+|30397 |C.DX10.LEGAX.15  |DX10 Legacy Axis Lev 15        |0|02|X|0| 1|   0 |30300|||                       
+|30398 |C.DX10.DXCAT.15  |DX10 Diagnosis Category Lev 15 |0|02|X|0| 8|   0 |30300|||                       
+|30399 |C.DX10.DXRANK.15 |DX10 Diagnosis Rank Lev 15     |0|02|X|0| 2|   0 |30300|||                       
+|30400 |C.DX10.UNIQ.15   |DX10 Diagnosis Unique Lev 15   |0|02|X|0| 6|   0 |30300|||                       
+|30401 |C.DX10.ICD10.16  |DX10 ICD10 Code Lev 16         |0|02|X|0| 8|   0 |30300|||                       
+|30402 |C.DX10.ICD9.16   |DX10 ICD9 Code Lev 16          |0|02|X|0| 6|   0 |30300|||                       
+|30403 |C.DX10.LEGAX.16  |DX10 Legacy Axis Lev 16        |0|02|X|0| 1|   0 |30300|||                       
+|30404 |C.DX10.DXCAT.16  |DX10 Diagnosis Category Lev 16 |0|02|X|0| 8|   0 |30300|||                       
+|30405 |C.DX10.DXRANK.16 |DX10 Diagnosis Rank Lev 16     |0|02|X|0| 2|   0 |30300|||                                                                                Gulf Coast Center                                                          
+|30406 |C.DX10.UNIQ.16   |DX10 Diagnosis Unique Lev 16   |0|02|X|0| 6|   0 |30300|||                       
+|30407 |C.DX10.A4.SUPGRP |DX10 Axis 4  Support Group     |0|02|X|1| 1|  29 |30300|||                       
+|30408 |C.DX10.A4.SOCENV |DX10 Axis 4  Social Environmen |0|02|X|1| 1|  29 |30300|||                       
+|30409 |C.DX10.A4.EDU    |DX10 Axis 4  Education         |0|02|X|1| 1|  29 |30300|||                       
+|30410 |C.DX10.A4.OCC    |DX10 Axis 4  Occupational      |0|02|X|1| 1|  29 |30300|||                       
+|30411 |C.DX10.A4.HOUSNG |DX10 Axis 4  Housing           |0|02|X|1| 1|  29 |30300|||                       
+|30412 |C.DX10.A4.ECO    |DX10 Axis 4  Economic          |0|02|X|1| 1|  29 |30300|||                       
+|30413 |C.DX10.A4.HEALTH |DX10 Axis 4  Health Care       |0|02|X|1| 1|  29 |30300|||                       
+|30414 |C.DX10.A4.LEGAL  |DX10 Axis 4  Legal/Crime       |0|02|X|1| 1|  29 |30300|||                       
+|30415 |C.DX10.A4.PSYENV |DX10 Axis 4  Psy/Environment   |0|02|X|1| 1|  29 |30300|||                       
+|30416 |C.DX10.A4.NONE   |DX10 Axis 4  None              |0|02|X|1| 1|  29 |30300|||                       
+|30417 |C.DX10.A5.GAF    |DX10 Axis 5 GAF                |0|02|B|1| 8|2085 |30300|||                       
+|30418 |C.DX10.CURR.ABL  |DX10 Current ABL               |0|02|X|1| 8|2088 |30300|||                       
+|30419 |C.DX10.POT.ABL   |DX10 Potential ABL             |0|02|X|1| 8|2088 |30300|||                       
+|30420 |C.DX10.COMMENT   |DX10 COMMENT                   |0|02|X|0|64|   0 |30300|||                       
+|30421 |C.DX10.SNAPID    |DX10 SNAPID                    |0|02|X|3|32|   0 |30300|||                       
+|30422 |C.DX10.ISN       |DX10 ISN                       |0|02|X|9|32|   0 |30300|||                       
+|30423 |C.DX10.CONVERTED |DX9-10 Converted Record        |0|02|X|1| 1|  29 |30300|||                       
+|30424 |C.DX10.STAT      |DX10 STATUS                    |0|02|X|1| 8|2088 |30300|||                       

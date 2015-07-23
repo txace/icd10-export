@@ -1,0 +1,15 @@
+{
+  "name": "icd10-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mis-util": "^0.5.5",
+    "q": "^1.4.1"
+  }
+}
